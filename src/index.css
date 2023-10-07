@@ -1,8 +1,8 @@
 body {
-  margin: 0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: Work Sans;
   text-align: center;
   background-color: aliceblue;
+
 }
 
 .navbar, .navbar-brand {
@@ -10,16 +10,44 @@ body {
   display: block;
   width: 100%;
   background-color: aliceblue;
+  
 }
 
 div.navbar-brand {
   padding-top: 2em;
   margin-bottom: 2em;
+  
 }
 
 .navbar .navbar-brand > .navbar-item,
 .navbar .navbar-brand .navbar-link {
   display: inline-block;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers items horizontally */
+  background-color: aliceblue; /* or any color you prefer */
+}
+
+.nav li {
+  margin-right: 15px; /* Adds some space between the items */
+}
+
+.nav li a {
+  display: block;
+  color: black; /* or any color you prefer */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.nav li a:hover {
+  background-color: lightblue; /* or any color you prefer */
 }
 
 main {
@@ -30,7 +58,7 @@ main {
 }
 
 .my-pic {
-  clip-path: circle();
+	clip-path: circle();
   width: 250px;
 }
 
@@ -42,11 +70,14 @@ footer.footer {
   background-color: rgb(255, 255, 255);
 }
 
+
+
+
 @media only screen and (max-width: 1024px) {
-  main {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
-  }
+    main {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
 }

@@ -1,29 +1,30 @@
-import React from 'react';
-
+import React from "react";
 
 function Navigation(props) {
-  // Define the tabs to be displayed in the navigation bar
-  const tabs = ['About Me', 'Portfolio', 'Contact Me', 'Resume'];
-
+  const tabs = ["About", "Portfolio", "Contact", "Resume"];
   return (
-    <nav className="navigation">
-      <ul className="nav-list">
+    <div className="nav">
+      <ul>
         {tabs.map((tab) => (
           <li
-            className={props.currentPage === tab ? 'nav-item active' : 'nav-item'}
+            className={
+              props.currentPage === tab ? "nav-item is-active" : "nav-item"
+            }
             key={tab}
           >
             <a
-              href={'#' + tab.replace(' ', '').toLowerCase()}  // Adjusting for multi-word tabs
+              href={"#" + tab.toLowerCase()}
               onClick={() => props.handlePageChange(tab)}
-              className="nav-link"
+              className={
+                props.currentPage === tab ? "nav-link active" : "nav-link"
+              }
             >
               {tab}
             </a>
           </li>
         ))}
       </ul>
-    </nav>
+    </div>
   );
 }
 
