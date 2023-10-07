@@ -8,7 +8,7 @@ function Footer() {
         <p>
           <strong>My Full Stack Development Portfolio</strong> - a React site by{' '}
           <a href="https://github.com/iphaminh" target="_blank" rel="noreferrer">
-            Your Name
+            Minh Pham
           </a>
           .
         </p>
