@@ -1,5 +1,6 @@
 /* Add this to the top of your index.css file */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 
 body {
@@ -53,6 +54,16 @@ div.navbar-brand {
 .nav li a:hover {
   background-color: lightblue; /* or any color you prefer */
 }
+
+.name {
+  font-family: 'Special Elite', cursive;
+  font-size: 2.5em;
+}
+
+.portfolio {
+  font-size: 1.5em;
+}
+
 
 main {
   margin-top: 2em;

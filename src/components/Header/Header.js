@@ -24,21 +24,15 @@ function Header() { //create a reusable UI section (Chapter 10-Component).
     }
   };
 
-  return ( //JSX returned by the Header component. structure the UI of the Header component (Chapter 06-JSX-expressions)
+  return (
     <div>
       <nav className="navbar">
         <div className="navbar-brand">
-          <a
-            className="navbar-item"
-            rel="noreferrer"
-            target="_blank"
-            href="https://github.com/iphaminh?tab=repositories"
-          >
-            <span className="content is-large">Minh Pham</span>
-          </a>
+          <span className="name">Minh Pham</span>
+          <div className="portfolio">My Portfolio</div>
         </div>
       </nav>
-      <Navigation //To display navigation tabs and allow user interaction to change the displayed page (Chapter 08-Props).
+      <Navigation 
         currentPage={currentPage}
         handlePageChange={setCurrentPage}
       />
