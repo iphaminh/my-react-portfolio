@@ -1,9 +1,10 @@
-import React, { useState } from 'react'; //useState hook.
-import Navigation from './Navigation'; 
-import About from './About';
-import Contact from './Contact';
-import Portfolio from './Portfolio';
-import Resume from './Resume';
+import React, { useState } from 'react'; 
+import Navigation from '../Navigation/Navigation'; 
+import About from '../About/About';
+import Contact from '../Contact/Contact';
+import Portfolio from '../Portfolio/Portfolio';
+import Resume from '../Resume/Resume';
+
 
 function Header() { //create a reusable UI section (Chapter 10-Component).
   const [currentPage, setCurrentPage] = useState("About");  //Initializing state using useState,  manage the current page being displayed 
