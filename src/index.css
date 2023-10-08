@@ -120,6 +120,25 @@ footer.footer {
   margin-top: 20px; /* Adjusts space above the submit button */
 }
 
+/*for resume*/
+/* ... other CSS ... */
+
+/* Style for the ul element to remove bullet points */
+ul {
+  list-style-type: none; /* Removes bullet points */
+  padding-left: 0; /* Removes default padding */
+}
+
+/* Style for the li elements to align text */
+li {
+  text-align: center; /* Aligns text to the left */
+}
+
+/* Style for the columns to ensure they are aligned in a straight line */
+.columns .column {
+  text-align: center; /* Aligns text to the left */
+}
+
 
 @media only screen and (max-width: 1024px) {
     main {
