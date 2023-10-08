@@ -82,10 +82,43 @@ main {
 }
 
 footer.footer {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
+}
+.input-textarea {
+  width: 90%;
+  /* other styles... */
+}
+
+.input-text {
+  height: 27px; /* Adjusts height */
+  width: 90%;
+}
+
+.input-text,
+.input-textarea {
+  width: 90%; /* Adjusts width */
+}
+
+.input-group {
+  margin-bottom: 20px; /* Adjusts space between each input group */
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px; /* Adjusts space between label and input field */
+  text-align: center;
+}
+
+.form-fieldset { /*line around the send me message*/
+  padding: 10px 80px 20px;  /* Adjusts space inside the border */
+  margin: 10px 110px 20px 110px;  /* Adjusts space outside the border */
+  border: 2px solid #ccc;  /* Adjusts border color and width */
 }
 
 
+.submit-button-container {
+  margin-top: 20px; /* Adjusts space above the submit button */
+}
 
 
 @media only screen and (max-width: 1024px) {
