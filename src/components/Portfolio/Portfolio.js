@@ -1,7 +1,7 @@
 import React from 'react';
 import projectData from './projectData'; // Importing project data
-import githubIcon from './assets/img/git-bt.jpg'; // Path to your GitHub icon
-import liveIcon from './assets/img/live-bt.jpg'; // Path to your live server icon
+import githubIcon from '../assets/img/git-bt.jpg';  // Path to your GitHub icon
+import liveIcon from '../assets/img/live-bt.jpg'; // Path to your live server icon
 
 const Portfolio = () => {
   return (
