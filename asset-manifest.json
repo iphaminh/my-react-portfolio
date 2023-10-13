@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.073bdbad.css",
+    "main.js": "/my-react-portfolio/static/js/main.1547aaa7.js",
+    "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
+    "static/media/self-image.png": "/my-react-portfolio/static/media/self-image.c0173d5854429a5d1ac0.png",
+    "static/media/PowerGrid.jpg": "/my-react-portfolio/static/media/PowerGrid.39668467eb18b0dd7a76.jpg",
+    "static/media/weather-forecast.jpg": "/my-react-portfolio/static/media/weather-forecast.6fdf0371ae95a1499d9e.jpg",
+    "static/media/quiz.jpg": "/my-react-portfolio/static/media/quiz.d40e871814258d11db04.jpg",
+    "static/media/Note-Taker.jpg": "/my-react-portfolio/static/media/Note-Taker.d9ab4560dbc95fdd7fb6.jpg",
+    "static/media/meal-plan.jpg": "/my-react-portfolio/static/media/meal-plan.63c49f8aafc4c0bed8a9.jpg",
+    "static/media/Password.jpg": "/my-react-portfolio/static/media/Password.0a86e631d721bdc3c20b.jpg",
+    "static/media/simple-task.jpg": "/my-react-portfolio/static/media/simple-task.42de4d8e37ce0a685877.jpg",
+    "static/media/git-bt.png": "/my-react-portfolio/static/media/git-bt.56bbdfffe2542f5d6e3e.png",
+    "static/media/live-bt.png": "/my-react-portfolio/static/media/live-bt.307c14f63ba65c6c3b2c.png",
+    "static/media/phaminh-resume.pdf": "/my-react-portfolio/static/media/phaminh-resume.b2fc6d54156fe16f770d.pdf",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.073bdbad.css.map": "/my-react-portfolio/static/css/main.073bdbad.css.map",
+    "main.1547aaa7.js.map": "/my-react-portfolio/static/js/main.1547aaa7.js.map",
+    "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073bdbad.css",
+    "static/js/main.1547aaa7.js"
+  ]
+}
