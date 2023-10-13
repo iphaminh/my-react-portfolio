@@ -1,5 +1,5 @@
 import React from "react";
-import myPic from '../../assets/img/self-image.png'; // Import your image
+import myPic from '../../assets/img/self-image.JPG'; // Import your image
 
 function About() {
   return (
