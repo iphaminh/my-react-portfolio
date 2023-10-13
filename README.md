@@ -1,8 +1,8 @@
 # Minh Pham's React Portfolio
 
-<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot1.png" width="300" />
-<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot2.png" width="230" />
-<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot3.png" width="270" />
+<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot1.png" width="314" />
+<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot2.png" width="249" />
+<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot3.png" width="259" />
 
 
 ## Description
