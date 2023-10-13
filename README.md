@@ -1,6 +1,9 @@
 # Minh Pham's React Portfolio
 
-![Portfolio Screenshot](./path-to-your-screenshot.png)
+<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot1.png" width="300" />
+<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot2.png" width="300" />
+<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot3.png" width="300" />
+
 
 ## Description
 
@@ -36,19 +39,11 @@ To install the dependencies, run the following command:
 ```bash
 npm install
 
-## Projects
-
-Here are a few of my projects that I've worked on:
-
-Project 1: GitHub Repo | Deployed Link
-Project 2: GitHub Repo | Deployed Link
-... Add more projects as per your portfolio.
-
 ## Contact
 
 GitHub
-LinkedIn - Replace with your LinkedIn profile link.
-Email: YourEmail@example.com - Replace with your email address.
+LinkedIn - https://www.linkedin.com/in/minh-pham-51a49458/
+Email: YourEmail@example.com 
 
 ## License
 
