@@ -56,7 +56,7 @@ div.navbar-brand {
   padding: 0;
   display: flex; /* Enables flexbox */
   justify-content: center; /* Centers items horizontally */
-  background-color: aliceblue; /* or any color you prefer */
+  background-color: aliceblue; 
 }
 
 .nav li {
@@ -65,7 +65,7 @@ div.navbar-brand {
 
 .nav li a {
   display: block;
-  color: black; /* or any color you prefer */
+  color: black; 
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -73,7 +73,7 @@ div.navbar-brand {
 
 /* Change color on hover */
 .nav li a:hover {
-  background-color: lightblue; /* or any color you prefer */
+  background-color: lightblue; 
 }
 
 .name {
@@ -107,7 +107,6 @@ footer.footer {
 }
 .input-textarea {
   width: 90%;
-  /* other styles... */
 }
 
 .input-text {
