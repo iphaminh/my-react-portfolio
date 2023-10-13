@@ -1,13 +1,13 @@
 import React from 'react';
 import projectData from './projectData'; // Importing project data
-import githubIcon from '../../assets/img/git-bt.jpg';
-import liveIcon from '../../assets/img/live-bt.jpg'; // Path to your live server icon
+import githubIcon from '../../assets/img/git-bt.png';
+import liveIcon from '../../assets/img/live-bt.png'; // Path to your live server icon
 
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      {projectData.map((project, index) => (
-        <div key={index} className="project-card">
+      {projectData.map((project) => (
+        <div key={project.name} className="project-card">
           <img src={project.image} alt={project.name} className="project-image" />
           <div className="project-info">
             <h3>{project.name}</h3>

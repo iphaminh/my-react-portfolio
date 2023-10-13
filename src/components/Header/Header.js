@@ -29,7 +29,7 @@ function Header() { //create a reusable UI section (Chapter 10-Component).
       <nav className="navbar">
         <div className="navbar-brand">
           <span className="name">Minh Pham</span>
-          <div className="portfolio">My Portfolio</div>
+          <div className="my-portfolio">My Portfolio</div>
         </div>
       </nav>
       <Navigation 

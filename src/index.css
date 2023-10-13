@@ -1,6 +1,9 @@
 /* Add this to the top of your index.css file */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+
+
 
 
 body {
@@ -18,10 +21,28 @@ body {
   
 }
 
+/* MY PORTFOLIO Header */
+
+.my-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 29px;
+  font-family: 'Jura', sans-serif;
+  padding-top: 22px;
+}
+
 div.navbar-brand {
   padding-top: 2em;
   margin-bottom: 2em;
   
+}
+
+/* CHANGING TABS */
+
+.nav-link {
+  font-size: 24px; /* Adjust as per your need */
+  /* Other CSS properties like color, padding, etc. */
 }
 
 .navbar .navbar-brand > .navbar-item,
@@ -120,8 +141,74 @@ footer.footer {
   margin-top: 20px; /* Adjusts space above the submit button */
 }
 
-/*for resume*/
-/* ... other CSS ... */
+/* Portfolio Component Styles */
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  /* ... other styles ... */
+}
+
+.project-info {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  color: white; /* text color */
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.project-image {
+  width: 100%;
+  transition: transform .2s ease-in-out;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.1);
+}
+
+/* github and livelink button */
+
+.project-info {
+  padding: 10px;
+}
+
+.project-info h3 {
+  margin-bottom: 10px;
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+}
+
+.link-icon {
+  width: 24px; /* Adjust icon size */
+  height: auto;
+}
+
+
+/* Tablet view: 2 columns */
+@media (min-width: 600px) {
+  .portfolio {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop view: 3 columns */
+@media (min-width: 900px) {
+  .portfolio {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 
 /* Style for the ul element to remove bullet points */
 ul {
