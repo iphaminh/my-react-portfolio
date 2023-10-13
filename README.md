@@ -1,8 +1,8 @@
 # Minh Pham's React Portfolio
 
 <img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot1.png" width="300" />
-<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot2.png" width="300" />
-<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot3.png" width="300" />
+<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot2.png" width="230" />
+<img src="https://github.com/iphaminh/my-react-portfolio/raw/main/src/assets/img/Screenshot3.png" width="270" />
 
 
 ## Description
@@ -36,8 +36,13 @@ Welcome to my professional portfolio, built using React. This single-page applic
 
 To install the dependencies, run the following command:
 
-```bash
 npm install
+
+## Links
+
+Deployment Link: https://iphaminh.github.io/my-react-portfolio/Links 
+
+Repos Link: https://github.com/iphaminh/my-react-portfolioLinks
 
 ## Contact
 
