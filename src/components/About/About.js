@@ -1,11 +1,12 @@
 import React from "react";
+import myPic from '../../assets/img/self-image.png'; // Import your image
 
 function About() {
   return (
     <div>
       <p className="content is-medium">Filmmaker Turned Software Engineer</p>
       <hr />
-      <img className="my-pic" src={process.env.PUBLIC_URL + '/img/your-photo.jpg'} alt="Your Name"/>
+      <img className="my-pic" src={myPic} alt="Minh Pham"/>
       <p className="content is-italic mt-4">
         Hello! I'm Minh Pham, a filmmaker who has embarked on a journey into the world of software engineering.
       </p>
