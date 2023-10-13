@@ -1,4 +1,5 @@
 import React from "react";
+import resumePdf from "../../assets/file/phaminh-resume.pdf"; // Importing the PDF
 
 function Resume() {
   return (
@@ -9,8 +10,9 @@ function Resume() {
 
         <a
           className="button is-primary"
-          href={process.env.PUBLIC_URL + "/phaminh-resume.pdf"}
-          target="_blank" rel="noreferrer"
+          href={resumePdf} // Using the imported PDF
+          target="_blank" 
+          rel="noreferrer"
         >
           <span className="icon">
             <i className="fas fa-download"></i>
