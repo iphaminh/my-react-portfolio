@@ -2,6 +2,7 @@ import noteTakerImage from '../../assets/img/Note-Taker.jpg';
 import passwordImage from '../../assets/img/Password.jpg';
 import powerGridImage from '../../assets/img/PowerGrid.jpg';
 import mealPlanImage from '../../assets/img/meal-plan.jpg';
+import contractorVisualizationImage from '../../assets/img/final-project.png';
 import quizImage from '../../assets/img/quiz.jpg';
 import simpleTaskImage from '../../assets/img/simple-task.jpg';
 import weatherForecastImage from '../../assets/img/weather-forecast.jpg';
@@ -48,6 +49,12 @@ const projectData = [
       image: weatherForecastImage,
       githubLink: 'https://github.com/iphaminh/Traveler-Weather-Companion.',
       liveLink: 'https://iphaminh.github.io/Traveler-Weather-Companion./',
+    },
+    {
+      name: 'Contractor Visualization',
+      image: contractorVisualizationImage,
+      githubLink: 'https://github.com/jonesmatr/Visual-Architecture-Assistant',
+      liveLink: 'https://vaa102423v2-99a6aa2a15e0.herokuapp.com/',
     },
 ];
 
