@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.073bdbad.css",
-    "main.js": "/my-react-portfolio/static/js/main.d14c818f.js",
+    "main.js": "/my-react-portfolio/static/js/main.32ca3f10.js",
     "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/self-image.JPG": "/my-react-portfolio/static/media/self-image.a8dbfdf0a1544027ef73.JPG",
+    "static/media/final-project.png": "/my-react-portfolio/static/media/final-project.4d4dc2932a1eaf06eafb.png",
     "static/media/PowerGrid.jpg": "/my-react-portfolio/static/media/PowerGrid.39668467eb18b0dd7a76.jpg",
     "static/media/weather-forecast.jpg": "/my-react-portfolio/static/media/weather-forecast.6fdf0371ae95a1499d9e.jpg",
     "static/media/quiz.jpg": "/my-react-portfolio/static/media/quiz.d40e871814258d11db04.jpg",
@@ -16,11 +17,11 @@
     "static/media/phaminh-resume.pdf": "/my-react-portfolio/static/media/phaminh-resume.b2fc6d54156fe16f770d.pdf",
     "index.html": "/my-react-portfolio/index.html",
     "main.073bdbad.css.map": "/my-react-portfolio/static/css/main.073bdbad.css.map",
-    "main.d14c818f.js.map": "/my-react-portfolio/static/js/main.d14c818f.js.map",
+    "main.32ca3f10.js.map": "/my-react-portfolio/static/js/main.32ca3f10.js.map",
     "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073bdbad.css",
-    "static/js/main.d14c818f.js"
+    "static/js/main.32ca3f10.js"
   ]
 }
